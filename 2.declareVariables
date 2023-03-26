@@ -1,0 +1,22 @@
+JavaScript provides eight different data types which are :
+  undefined, null, boolean, string, symbol, bigint, number, and object
+In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
+
+  How to declare :
+  var myName;
+
+  How to Assign:
+  var myName;
+  myName="Palak";
+  
+
+  Assigning the contents to new variable:
+  var myName ;
+  myName="Palak";
+  var newName;
+  newName=myName;
+
+  Create a variable and assign value to it in the same line :
+  var myName="Palak"
+
+MYVAR is not same as myvar or myVar.
