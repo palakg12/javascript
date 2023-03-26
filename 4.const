@@ -1,0 +1,5 @@
+In ES6 const keyword is used when the value you are going to assign is constant. Do not use const 
+keyword if you have to reassign a value.
+
+ex: const c="e";
+    c="d"; 

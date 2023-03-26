@@ -1,0 +1,14 @@
+There are many operators in javascript :
+1.  +  : Addition
+2.  -  : Subtraction
+3.  *  : Multiplication
+4.  /  : Division
+5.  %  : Remainder
+6.  ++ : Increament
+       Ex : myVar ++;
+7.  -- : Decreament
+       Ex : myVar --;
+8.  += : Augmented Addition
+9.  -= : Augmented Subtraction
+10. *= : Augmented Multiplication
+11. /= : Augmented Division
