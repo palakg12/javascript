@@ -1,0 +1,11 @@
+Parameter : Parameters are variables that act as placeholders for the values that are to be input to a function when it is 
+called. When a function is defined, it is typically defined along with one or more parameters.
+
+Arguments : The actual values that are input (or "passed") into a function when it is called are known as arguments.
+
+ex: function functionWithArgs(para1,para2){
+    console.log(para1+para2)
+    }
+    functionWithArgs(1,2)
+
+    Here para1,para2 are parameters passed and 1,2 are the values passed.

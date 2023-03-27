@@ -1,0 +1,44 @@
+Push (): Push function in array adds the value in the existing array.
+
+ex:const arr1 = [1, 2, 3];
+   arr1.push(4);
+
+   const arr2 = ["Stem", "K", "cow"];
+   arr2.push(["hey", "you"]);
+
+arr1 now has the value [1, 2, 3, 4] and arr2 has the value ["Stem", "K", "cow", ["hey", "you"]]
+
+
+
+
+Pop(): Pop function is used to remove the value in the existing array.
+
+ex:const threeArr = [1, 4, 6];
+   const oneDown = threeArr.pop();
+
+   console.log(oneDown);
+   console.log(threeArr);
+
+The first console.log will display the value 6, and the second will display the value [1, 4].
+
+
+
+
+Shift () : pop() always removes the last element of an array. What if you want to remove the first?
+That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
+
+Ex:const ourArray = ["Stimpson", "J", ["cat"]];
+   const removedFromOurArray = ourArray.shift();
+   removedFromOurArray would have a value of the string Stimpson, and ourArray would have ["J", ["cat"]]
+
+
+
+
+Unshift(): .unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
+
+Ex:const ourArray = ["Stimpson", "J", "cat"];
+   ourArray.shift();
+   ourArray.unshift("Happy");
+   
+After the shift, ourArray would have the value ["J", "cat"]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].
+
