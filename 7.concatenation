@@ -1,0 +1,7 @@
+const ourStr = "I come first. " + "I come second."; 
+This will give : I come first. I come second.
+
+
+let ourStr = "I come first. ";
+ourStr += "I come second."; 
+This will give : This is the first sentence. This is the second sentence.

@@ -1,0 +1,8 @@
+Strings are immutable here ie.they cannot be altered once created.
+ 
+ ex: let a = "Bob";
+     a[0] = "J";      //this will give an error
+
+Rather than doing it that way .Do it like this:
+ ex: let a = "Bob";
+     a = "Job";
