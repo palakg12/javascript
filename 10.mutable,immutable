@@ -6,3 +6,5 @@ Strings are immutable here ie.they cannot be altered once created.
 Rather than doing it that way .Do it like this:
  ex: let a = "Bob";
      a = "Job";
+As javascript is immutable so it will not take a single character.To change you have to change the whole changed 
+string.
