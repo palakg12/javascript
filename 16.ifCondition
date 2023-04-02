@@ -1,0 +1,6 @@
+if :
+
+if (condition is true) {
+  statement is executed
+}
+

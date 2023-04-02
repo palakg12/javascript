@@ -1,0 +1,4 @@
+how to use isEqual function:
+function isEqual(a, b) {
+  return a === b;
+}
