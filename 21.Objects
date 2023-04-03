@@ -1,0 +1,62 @@
+Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access 
+the data in objects through what are called properties.
+
+Objects are useful for storing data in a structured way.
+Here's a sample cat object:
+
+const cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+In this example, all the properties are stored as strings, such as name, legs, and tails. However, you can also use 
+numbers as properties. You can even omit the quotes for single-word string properties, as follows:
+
+const anotherObject = {
+  make: "Ford",
+  5: "five",
+  "model": "focus"
+};
+
+
+
+
+ACCESSING PROPERTIES OF OBJECTS:
+There are two ways to access the properties of an object: dot notation (.) and bracket notation ([])
+1.The first way to access the properties of an object is bracket notation (.)
+  ex:const myObj = {
+         prop1: "val1",
+         prop2: "val2"
+     };
+     const prop1val = myObj.prop1;
+     const prop2val = myObj.prop2;
+
+
+prop1val would have a value of the string val1, and prop2val would have a value of the string val2.
+
+
+2.The second way to access the properties of an object is bracket notation ([])
+   ex:const myObj = {
+         "Space Name": "Kirk",
+         "More Space": "Spock",
+         "NoSpace": "USS Enterprise"
+      };
+
+      myObj["Space Name"];
+      myObj['More Space'];
+      myObj["NoSpace"];
+myObj["Space Name"] would be the string Kirk, myObj['More Space'] would be the string Spock, and myObj["NoSpace"] 
+would be the string USS Enterprise.
+
+
+HOW TO CHANGE OBJECT PROPERTIES:
+ex:const ourDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+    };
+Since he's a particularly happy dog, let's change his name to the string Happy Camper. Here's how we update his 
+object's name property: ourDog.name = "Happy Camper"; or ourDog["name"] = "Happy Camper"; Now when we evaluate 
+ourDog.name, instead of getting Camper, we'll get his new name, Happy Camper.
