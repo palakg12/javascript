@@ -1,0 +1,7 @@
+const ourArray = [];
+
+for (let i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+ourArray will now have the value [0, 1, 2, 3, 4].
+
