@@ -1,0 +1,14 @@
+ES6 introduces the spread operator, which allows us to expand arrays and other expressions in places where multiple
+parameters or elements are expected.
+  EX:const arr = [6, 89, 3, 45];
+     const maximus = Math.max(...arr);
+maximus would have a value of 89.
+
+
+
+  EX:const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+     let arr2;
+     arr2 = [...arr1];  // Change this line
+     console.log(arr2);
+
+This will copy the contents of arr1 into another array arr2 
