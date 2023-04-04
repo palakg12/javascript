@@ -1,0 +1,2 @@
+The querySelector method lets you retrieve an element using a CSS selector query. The getElementById method 
+retrieves an element by its DOM ID.

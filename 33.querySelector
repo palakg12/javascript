@@ -1,0 +1,3 @@
+The JavaScript querySelector() method lets you retrieve an element from the DOM, or the web page, using a CSS 
+selector. This method comes with a sister function called querySelectorAll() which selects all the elements that
+match a particular selector from the DOM.
